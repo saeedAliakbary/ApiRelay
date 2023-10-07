@@ -2,6 +2,8 @@ package com.relay.apirelay;
 
 
 
+import com.relay.apirelay.controller.WeatherController;
+import com.relay.apirelay.controller.WeatherRequest;
 import com.relay.apirelay.service.WeatherService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,10 +11,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.verify;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
 class WeatherControllerTest {
 
     @Mock
@@ -23,7 +22,7 @@ class WeatherControllerTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.openMocks(this);
     }
 
     @Test
