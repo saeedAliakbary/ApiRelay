@@ -1,4 +1,4 @@
-package com.example.secondserver;
+package com.apiRelay.secondserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

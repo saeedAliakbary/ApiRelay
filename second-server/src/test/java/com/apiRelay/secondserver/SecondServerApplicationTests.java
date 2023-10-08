@@ -1,4 +1,4 @@
-package com.example.secondserver;
+package com.apiRelay.secondserver;
 
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.junit.jupiter.api.Test;
